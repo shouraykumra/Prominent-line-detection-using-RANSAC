@@ -15,3 +15,7 @@ input: sidewalk.png output: out_sidewalk.png
 input: puppy.png output: out_puppy.png 
 
 input: building.png output: out_building.png
+
+Problems in result:
+
+The code detects lines but it was not prominent in the building.png because of unresolved threshold value which made feature extraction difficult. 
